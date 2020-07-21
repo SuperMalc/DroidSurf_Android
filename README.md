@@ -1,4 +1,7 @@
 # DroidSurf
+<p align="center">
+  <img src="https://github.com/SuperMalc/DroidSurf_Android/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" width="350" title="DroidSurf">
+</p>
 
 DroidSurf allows you to control your android device remotely with a tcp/ip connection
 
@@ -16,5 +19,3 @@ Please make sure to update tests as appropriate.
 
 ## License
 [Read license](http://androidsurfer.altervista.org/?page_id=25)
-
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
