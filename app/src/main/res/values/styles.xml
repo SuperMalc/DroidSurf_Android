@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <!-- My collapsing MAIN THEME -->
+    <style name="AppCollapsingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/normalText</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/gradient_start_color</item>
+    </style>
+
+    <!-- My expanded title color style -->
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">#d7871f</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- My collapsed title color style -->
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#d7871f</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- My custom theme. -->
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- My switch custom theme. -->
+    <style name="MySwitch" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:colorControlActivated">@color/yellowColor</item>
+        <item name="android:colorForeground">@color/red</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+</resources>

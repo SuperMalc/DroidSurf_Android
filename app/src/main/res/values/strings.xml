@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name" translatable="false">DroidSurf</string>
+    <string name="host_info">Host info</string>
+    <string name="host_addr">Host address</string>
+    <string name="addr_port">Port number</string>
+    <string name="settings">General settings</string>
+    <string name="hide_app">Hide icon in launcher</string>
+    <string name="bt_connect" translatable="false">Start</string>
+    <string name="bt_stop_service" translatable="false">Stop</string>
+    <string name="pin_psw">Protect with PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin_title" translatable="false">PIN</string>
+    <string name="button_ok" translatable="false">Ok</string>
+    <string name="button_del">Delete</string>
+    <string name="warning">Warning</string>
+    <string name="check_bt">Check</string>
+    <string name="run_onboot">Run on boot</string>
+    <string name="warn_battery2">An additional permit is required for this device</string>
+    <string name="warning2">You won\'t be able to modify this setting until reinstall or resetting it from server. Continue?</string>
+    <string name="settings_save">Settings saved</string>
+    <string name="service_mode">Start on boot as background service</string>
+    <string name="server_download">Download host</string>
+    <string name="host_addr_box">empty address</string>
+    <string name="port_addr_box">empty port</string>
+    <string name="service_notice_1">Service is running</string>
+    <string name="service_notice_2">Service not running</string>
+    <string name="app_version" translatable="false">1.0.2</string>
+    <string name="dev_mail" translatable="false">surferdevelopers@gmail.com</string>
+    <string name="dev_name" translatable="false">Malcolm Mami</string>
+    <string name="app_description">Device remote control</string>
+    <string name="client_build_version">Version:</string>
+    <string name="app_perms">Settings</string>
+    <string name="usr_has_saved">Save configs first</string>
+    <string name="send_connect_input">This permission is needed to run the app on boot</string>
+    <string name="startup_service">Start on boot</string>
+    <string name="battery_limitation">Remove power limitation</string>
+    <string name="intro_1">Welcome</string>
+    <string name="intro_2">Connection</string>
+    <string name="Channel_1">Main service</string>
+    <string name="Channel_2">Notifications</string>
+    <string name="skip_btn">Skip</string>
+    <string name="intro_2A">Connect your device to the app on your computer to start sending commands</string>
+    <string name="intro_end">Get started</string>
+    <string name="intro_server">Server app</string>
+    <string name="intro_server2">Connect to the device from the computer after entering the port, address and starting the guardian service.</string>
+    <string name="next_btn">Next</string>
+    <string name="linkgithub" translatable="false">GitHub</string>
+    <string name="wrong_pin">Wrong code</string>
+    <string name="goto_sett">Go to settings</string>
+    <string name="server_mode">Host mode</string>
+    <string name="str_perms">Permissions</string>
+    <string name="str_perms_b">Allow device control</string>
+    <string name="service_status">Service status:</string>
+    <string name="main_sw">Start / Stop guardian service</string>
+    <string name="adv_options">Advanced options</string>
+    <string name="execute_cmd">Shell</string>
+    <string name="execute_cmd_c">Execute command on remote pc</string>
+    <string name="dnw_links" translatable="false">Download links</string>
+    <string name="intro_1A">DroidSurf includes several functions including file sharing and anti-theft app function.</string>
+    <string name="Download">Download</string>
+    <string name="server_creds">Server connection</string>
+    <string name="service_status_on">running</string>
+    <string name="service_status_off">not running</string>
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:shrinkMode="strict"
+    tools:context=".ActivityPin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textViewPsw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/normalText"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextViewEdits" />
+
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:onClick="setButtonOnClick1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="1"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:onClick="setButtonOnClick2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="2"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:onClick="setButtonOnClick3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="3"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:onClick="setButtonOnClick4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="4"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:onClick="setButtonOnClick5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="5"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:onClick="setButtonOnClick6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="6"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:onClick="setButtonOnClick7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="7"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:onClick="setButtonOnClick8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="8"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:onClick="setButtonOnClick9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="9"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:onClick="setButtonOnClick10"
+                android:text="@string/button_del"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_red"
+                android:textColorLink="#00E00E0E"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonF0"
+                android:onClick="setButtonOnClick0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="0"
+                android:textColor="@color/normalText"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:onClick="setButtonOnClick11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button2"
+                android:clickable="true"
+                android:text="@string/button_ok"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/normalText"
+                android:textSize="18sp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

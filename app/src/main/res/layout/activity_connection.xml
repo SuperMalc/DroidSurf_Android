@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Connection"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    android:background="@drawable/intro_background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_connection0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/host_info"
+                android:textAlignment="textStart"
+                android:textColor="#673AB7"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_connection1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/editText0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/host_addr"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_red"
+                android:textColorHint="@color/red"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/addr_port"
+                android:inputType="number"
+                android:textAlignment="textStart"
+                android:textColor="@color/dark_red"
+                android:textColorHint="@color/red"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_connectionAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_warning_black"/>
+
+            <TextView
+                android:id="@+id/textViewAlert0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Attenzione:"
+                android:textAlignment="textStart"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/textViewAlert1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="permessi mancanti in"
+                android:textAlignment="textStart"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/buttonP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_button"
+                android:padding="5dp"
+                android:text="Scheda permessi"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_connectionPrev"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textViewPrev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conferma"
+                android:textAlignment="textStart"
+                android:textColor="#673AB7"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

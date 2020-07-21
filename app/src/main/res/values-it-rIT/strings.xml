@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="addr_port">Porta</string>
+    <string name="button_del">Annulla</string>
+    <string name="check_bt">Verifica</string>
+    <string name="enter_pin">Nuovo PIN</string>
+    <string name="hide_app">Nascondi applicazione</string>
+    <string name="host_addr">Indirizzo server</string>
+    <string name="host_addr_box">Indirizzo mancante</string>
+    <string name="host_info">Informazioni host</string>
+    <string name="pin_psw">Proteggi con pin</string>
+    <string name="port_addr_box">Porta mancante</string>
+    <string name="server_download">Scarica app server</string>
+    <string name="service_mode">Esegui all\'avvio come servizio nascosto</string>
+    <string name="service_notice_1">Servizio in esecuzione</string>
+    <string name="service_notice_2">Servizio inattivo</string>
+    <string name="settings">Impostazioni generali</string>
+    <string name="settings_save">Impostazioni salvate</string>
+    <string name="warn_battery2">Per questo dispositivo è necessario un ulteriore permesso</string>
+    <string name="run_onboot">Esegui all\'avvio</string>
+    <string name="warning">Attenzione</string>
+    <string name="warning2">La modifica di questo parametro potrà essere ripristinata solo lato server o disinstallando l\'app. Procedere?</string>
+    <string name="client_build_version">Versione:</string>
+    <string name="app_perms">Opzioni</string>
+    <string name="app_description">Antifurto e gestione remota dispositivo</string>
+    <string name="usr_has_saved">Completa prima i campi</string>
+    <string name="send_connect_input">Acconsenti di avviare l\'applicazione all\'avvio del dispositivo</string>
+    <string name="startup_service">Esegui all\'avvio</string>
+    <string name="battery_limitation">Rimuovi limitazioni batteria</string>
+    <string name="intro_1">Benvenuto</string>
+    <string name="intro_2">Download server</string>
+    <string name="Channel_1">Servizio principale</string>
+    <string name="Channel_2">Notifiche</string>
+    <string name="skip_btn">Salta</string>
+    <string name="intro_1A">DroidSurf racchiude in sé diverse funzioni tra le quali lo scambio di file e la funzione di app antifurto.</string>
+    <string name="intro_2A">Sul pc scarica e avvia l\'applicazione server per poter gestire e controllare il dispositivo da remoto.</string>
+    <string name="intro_end">iniziamo</string>
+    <string name="intro_server">App server</string>
+    <string name="intro_server2">Connettiti al dispositivo dal computer dopo aver inserito porta, indirizzo ed aver avviato il servizio guardiano.</string>
+    <string name="next_btn">Avanti</string>
+    <string name="wrong_pin">Pin errato</string>
+    <string name="goto_sett">Vai alle impostazioni</string>
+    <string name="server_mode">Puntamento</string>
+    <string name="str_perms">Permessi</string>
+    <string name="str_perms_b">Controllo dispositivo</string>
+    <string name="service_status">Stato servizio:</string>
+    <string name="main_sw">Avvia / Arresta servizio guardiano</string>
+    <string name="adv_options">Impostazioni avanzate</string>
+    <string name="execute_cmd">Prompt comandi</string>
+    <string name="execute_cmd_c">Esegui comando su computer remoto</string>
+    <string name="Download">Scarica</string>
+    <string name="server_creds">Connessione al server</string>
+    <string name="service_status_on">in esecuzione</string>
+    <string name="service_status_off">non in esecuzione</string>
+</resources>
+
