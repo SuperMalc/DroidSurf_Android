@@ -1,10 +1,9 @@
 # DroidSurf
 <p align="center">
-  <img src="https://github.com/SuperMalc/DroidSurf_Android/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" width="350" title="DroidSurf">
+  <img src="https://github.com/SuperMalc/DroidSurf_Android/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" width="350" title="DroidSurf">
 </p>
 
-DroidSurf allows you to control your android device remotely with a tcp/ip connection
-
+DroidSurf is a remote control tool that allows you to take control remotely of your Android device with a simple tcp/ip connection. Server side is written in Python 2.7 and the client side in Java.
 ## Download links
 #### APK
 [https://play.google.com/store/apps/details?id=com.droidsurf.hostservice](https://play.google.com/store/apps/details?id=com.droidsurf.hostservice)
