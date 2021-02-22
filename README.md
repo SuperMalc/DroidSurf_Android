@@ -4,3 +4,5 @@
 </p>
 
 DroidSurf is a remote control tool that allows you to take remotely control of your smartphone running android with a tcp/ip connection. Server side is written in Python 2.7 and the client side in Java.
+* Downlaod Apk: https://github.com/SuperMalc/DroidSurf_Android/blob/master/app/release/DroidSurf.apk
+* Downlaod Server:
